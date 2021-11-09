@@ -1,0 +1,90 @@
+.main-div
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c8d8e4;
+}
+
+.child-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption
+{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.additems input
+{
+    border: none;
+    border-radius: 10px;
+    width: 15vw;
+    padding: 8px;
+    outline: none;
+}
+
+.additems
+{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.add-btn
+{
+    cursor: pointer;
+}
+
+.eachitem
+{
+    display: flex;
+    align-items: center;
+    background-color: #2b6777;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.showitems
+{
+    width: 15vw;
+    color: #fff;
+    position: relative;
+}
+
+.remove-item
+{
+    cursor: pointer;
+    position: absolute;
+    right : 4px;
+}
+
+.btn button
+{
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.btn button:hover {
+    background-color: red;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.edit-item
+{
+    cursor: pointer;
+    position: absolute;
+    right : 25px;
+}
